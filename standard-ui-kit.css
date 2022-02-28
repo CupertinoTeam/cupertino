@@ -24,12 +24,6 @@ html {
     transition: 250ms;
 }
 
-.cupertino-logo:hover {
-    transform: rotate(-11.25deg) scale(1.25);
-    cursor: pointer;
-    transition: 250ms;
-}
-
 .cupertino-text {
     font-size: 20px;
     font-weight: bold;
@@ -72,4 +66,25 @@ html {
 
 .banner-product-slide-img {
     width: 100%;
+}
+
+.banner-button {
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    transition: 250ms;
+}
+
+.banner-button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 250ms;
 }

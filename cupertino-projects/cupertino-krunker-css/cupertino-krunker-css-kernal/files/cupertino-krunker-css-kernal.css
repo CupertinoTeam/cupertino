@@ -1,5 +1,5 @@
 /**Cupertino Krunker CSS Kernal - Cupertino Team**/
-/**Build : 1.2.27.2022 - Public Release - GitHub U**/
+/**Build : 1.3.18.2022 - Public Release - GitHub U**/
 
 :root {
     --yellow: #fbc02d;
@@ -2129,7 +2129,8 @@ input:checked+.sliderCent:before {
     border-radius: 10px;
     margin-right: 5px;
     display: inline-block;
-    background-color: rgba(0,0,0,.4)
+    background-color: rgba(0,0,0,.4);
+    display: none
 }
 
 #bottomLeftHolder {
@@ -15988,4 +15989,91 @@ td>.newLeaderItem {
 .neMenGamThm {
     width: 100%;
     height: 100%
+}
+
+/* Removal */
+
+#ammoIcon {
+    display: none!Important
+}
+
+#timerIcon {
+    display: none!Important
+}
+
+
+#aContainer {
+    display: none!important
+}
+
+#voiceDisplay{
+    display: none;
+}
+
+#uiBase.onMenu #voiceDisplay {
+    display: none;
+}
+
+.imageButton {
+   display: none!important
+}
+
+.endAHolder {
+    display: none!important
+}
+
+#endAContainer {
+    display: none!important
+}
+
+#supportMapCreator {
+    display: none!important
+}
+
+#supportKrunker {
+    display: none
+}
+
+.UIB {
+    background-color: transparent !important
+}
+
+.leftUIB {
+    background-color: transparent !important
+}
+
+#healthValueHolder {
+    background-color: transparent !important
+}
+
+#leaderDisplay {
+    background-color: transparent!Important
+}
+
+.countIcon {
+    background-color: transparent!Important    
+}
+
+#merchImg{
+    display: none;
+}
+
+#policeButton{
+    display: none!important;
+}
+
+#curGameInfo{
+    display: none!important
+}
+
+.weapKey{
+    display: none!important
+}
+
+#weapDisplay{
+    display: none!important
+}
+
+#reloadMsg {
+    background: transparent !important;
 }
